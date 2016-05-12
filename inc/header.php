@@ -15,8 +15,8 @@
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <!-- Custom styles -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/select2/select2.min.css" rel="stylesheet" type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type='text/css'>
     <!-- JS -->
     <script src="js/searchfield/modernizr.custom.js"></script>
   </head>
@@ -24,18 +24,18 @@
   <body>
 
     <div class="container header">
-
-      <div class="logo col-sm-8 col-md-6"><a href="<?php echo $site_url; ?>"><img src="img/symbion_logo.png" alt="Symbion Intranet"></a></div>
-      <div class="col-sm-4 col-md-6 login-meta">
-        <div class="pull-md-right">
-          <?php require_once 'inc/login.php' ?>
+      <div class="row">
+        <div class="logo col-sm-8 col-md-6"><a href="<?php echo $site_url; ?>"><img src="img/symbion_logo.png" alt="Symbion Intranet"></a></div>
+        <div class="col-sm-4 col-md-6 login-meta">
+          <div class="pull-md-right">
+            <?php require_once 'inc/login.php' ?>
+          </div>
         </div>
       </div>
-      
     </div>
     <div class="nav-bg bg-primary m-b-1">
       <div class="container">
-        <div class="navbar navbar-dark">
+        <div class="navbar row navbar-dark">
           <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
               &#9776;
           </button>

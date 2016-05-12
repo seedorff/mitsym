@@ -1,4 +1,4 @@
-    </div>
+    </div><!-- /.container -->
     <footer class="site-footer bg-symbion">
         <div class="container">
             <div class="col-md-3">
@@ -38,9 +38,16 @@
     <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/searchfield/classie.js"></script>
     <script src="js/searchfield/uisearch.js"></script>
+    <script src="js/select2/select2.min.js"></script>
     <script>
         new UISearch( document.getElementById( 'sb-search' ) );
+        
+      $(document).ready(function() {
+        $(".selecttags").select2({
+            placeholder: 'Vælg kategori'
+        });
+      });
+        
     </script>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>

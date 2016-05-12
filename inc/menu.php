@@ -6,10 +6,10 @@
     <a class="nav-link" href="<?php echo $site_url; ?>/?page=min-side">Min side</a>
   </li>
   <li class="nav-item <?php if (($_GET['page'] === 'viden')): ?> active<?php endif; ?>">
-    <a class="nav-link" href="#">Viden</a>
+    <a class="nav-link" href="<?php echo $site_url; ?>/?page=viden">Viden</a>
   </li>
   <li class="nav-item <?php if (($_GET['page'] === 'events')): ?> active<?php endif; ?>">
-    <a class="nav-link" href="#">Events</a>
+    <a class="nav-link" href="<?php echo $site_url; ?>/?page=events">Events</a>
   </li>
   <li class="nav-item <?php if (($_GET['page'] === 'opslagstavlen')): ?> active<?php endif; ?>">
     <a class="nav-link" href="<?php echo $site_url; ?>/?page=opslagstavlen">Opslagstavlen</a>
