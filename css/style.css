@@ -17,6 +17,45 @@ body {
 .bg-symbion a {
 	color: #fff;
 }
+
+/*****************
+  Login
+******************/
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 /*****************
   Header
 ******************/
@@ -146,7 +185,7 @@ form .signin {
 .navbar-nav .nav-link + .nav-link {
   margin-left: 0;
 }
-@media (min-width: 34em) {
+@media (min-width: 992px) {
   .navbar-brand {
     float: left;
   }
@@ -205,10 +244,21 @@ form .signin {
 /*****************
   Message board - opslagstavlen
 ******************/
-.selecttags {
-	width: 100%;
+.selecttags, .select2-container {
+	width: 100% !important;
 }
-
+.select2-container--default .select2-selection--multiple {
+	background-color: inherit;
+	border: 1px solid #ccc;
+	border-radius: inherit;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 0.375rem 0.75rem;
+}
+.row.new-post {
+	margin-bottom: 20px;
+	text-align: center;
+}
 .card.post {
     position: relative;
     font-size: 0.813rem;
@@ -252,7 +302,7 @@ form .signin {
     top: 0px;
     right: 0px;
     height: 100%;
-	border-right: 3px solid rgb(66, 127, 237);
+	border-right: 3px solid #82cfed;
 }
 .card.post > .post-tags > ul:hover > li,
 .card.post > .post-tags > ul > li:first-child {
@@ -262,14 +312,14 @@ form .signin {
     margin-left: auto;
 }
 .card.post > .post-tags > ul:hover > li {
-    background-color: rgb(255, 255, 255);   
+    background-color: #fff;   
 }
 .card.post > .post-tags > ul > li:hover {
-    background-color: rgb(66, 127, 237);
-    color: rgb(255, 255, 255);
+    background-color: #82cfed;
+    color: #fff;
 }
 .card.post > .post-heading {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     border-width: 0px; 
 }
 .card.post > .post-heading {

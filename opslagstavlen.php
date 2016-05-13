@@ -4,27 +4,12 @@
   <a class="btn btn-sm btn-primary" href="../../components/#navbar" role="button">Skjul denne besked</a>
 </div><!-- /.jumbotron -->
 
-<div class="row">
-  <div class="col-md-4">
-    <div class="card card-block">
-        <h4 class="card-title">Nyt opslag</h4>
-        <form accept-charset="UTF-8" action="" method="POST">
-            <fieldset class="form-group">
-                
-                
-                <select class="selecttags" multiple="multiple">
-                  <option value="begivenhed">begivenhed</option>
-                  <option value="sælges">saelges</option>
-                </select>
-                
-
-              </fieldset>
-            <fieldset class="form-group">
-              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Din opslagstekst"></textarea>
-            </fieldset>
-            <button class="btn btn-info" type="submit">Gem opslag</button>
-        </form>
-    </div>
+<div class="row new-post">
+  <div class="col-xs-12">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newpost">
+      Skriv opslag
+    </button>
   </div>
 </div><!-- /.row -->
 
@@ -45,3 +30,4 @@
 
   </section>
 </div>
+<?php require_once 'inc/newpost_modal.php'; ?>

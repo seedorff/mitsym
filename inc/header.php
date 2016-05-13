@@ -25,8 +25,8 @@
 
     <div class="container header">
       <div class="row">
-        <div class="logo col-sm-8 col-md-6"><a href="<?php echo $site_url; ?>"><img src="img/symbion_logo.png" alt="Symbion Intranet"></a></div>
-        <div class="col-sm-4 col-md-6 login-meta">
+        <div class="logo col-xs-6"><a href="<?php echo $site_url; ?>"><img src="img/symbion_logo.png" alt="Symbion Intranet"></a></div>
+        <div class="col-xs-6 login-meta">
           <div class="pull-md-right">
             <?php require_once 'inc/login.php' ?>
           </div>
@@ -36,15 +36,15 @@
     <div class="nav-bg bg-primary m-b-1">
       <div class="container">
         <div class="navbar row navbar-dark">
-          <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+          <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
               &#9776;
           </button>
-          <div class="collapse navbar-toggleable-sm" id="navbar-header">
+          <div class="collapse navbar-toggleable-md" id="navbar-header">
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-lg-8">
                 <?php require_once 'inc/menu.php'; ?>
               </div>
-              <div class="col-md-4 pull-md-right">
+              <div class="col-lg-4 pull-lg-right">
                 <div id="sb-search" class="sb-search">
                   <form>
                     <input class="sb-search-input" placeholder="Søg i virksomheder" type="search" value="" name="search" id="search">

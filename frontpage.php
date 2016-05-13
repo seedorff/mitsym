@@ -1,7 +1,7 @@
   <div class="jumbotron">
     <h1>Vigtig info</h1>
     <p class="lead">I dette område kan Symbion teamet orientere om vigtige og aktuelle hændelser eller informationer. Beskedområdet kan med fordel have et automatisk deaktiveringstidspunkt, der kan angives ved aktivering af beskeden.</p>
-    <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Knap til noget &raquo;</a>
+    <a class="btn btn-lg btn-primary" href="#" role="button">Knap til noget</a>
   </div><!-- /.jumbotron -->
 
   <div class="card-columns">

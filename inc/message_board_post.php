@@ -17,7 +17,7 @@
     <header class="post-heading">
         <img class="img-circle pull-left" src="https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46" alt="User image" />
         <h3>John Doe</h3>
-        <div class="post-meta">Opslag skrevet - <span class="post-date">Jun 27, 2014</span></div>
+        <div class="post-meta">Skrevet: <span class="post-date">27. april, 2016</span></div>
     </header>
     <div class="post-body">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?</p>

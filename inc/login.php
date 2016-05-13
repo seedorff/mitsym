@@ -9,6 +9,6 @@
 <?php else: ?>
 <div class="current-user">
 <strong>Logget ind som <a href="<?php echo $site_url; ?>/?page=min-side">John Doe</a></strong><br>
-<a href="<?php echo $site_url; ?>/?login=false">Log ud</a>
+<a href="<?php echo $site_url; ?>/login.php">Log ud</a>
 </div>
 <?php endif; ?>
