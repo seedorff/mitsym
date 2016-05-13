@@ -21,6 +21,7 @@
             <fieldset class="form-group">
               <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Din opslagstekst"></textarea>
             </fieldset>
+            <p>Vælg udløbsdato for opslag <input type="text" id="datepicker"></p>
             <button class="btn btn-info" type="submit">Gem opslag</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Luk</button>
         </form>

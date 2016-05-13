@@ -39,12 +39,31 @@
     <script src="js/searchfield/classie.js"></script>
     <script src="js/searchfield/uisearch.js"></script>
     <script src="js/select2/select2.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script>
         new UISearch( document.getElementById( 'sb-search' ) );
         
+
+    // Only on messageboard page
       $(document).ready(function() {
         $(".selecttags").select2({
             placeholder: 'Vælg kategori'
+        });
+      });
+
+      $(function() {
+        $( "#datepicker" ).datepicker({
+            
+            dayNamesMin: [ "Sø", "Ma", "Ti", "On", "To", "Fr", "Lø" ],
+            monthNames: [ "Januar", "Februar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December" ],
+            firstDay: 1, 
+            weekHeader: "Uge", 
+            showWeek: true, 
+            minDate: 0, 
+            maxDate: "+12M",
+            dateFormat: 'yy-mm-dd',
+            altField: "#actualDate",
+            altFormat: "RFC_1036" 
         });
       });
         

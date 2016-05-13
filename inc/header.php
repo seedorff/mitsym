@@ -16,6 +16,8 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href="css/select2/select2.min.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
     <link href="css/style.css" rel="stylesheet" type='text/css'>
     <!-- JS -->
     <script src="js/searchfield/modernizr.custom.js"></script>
