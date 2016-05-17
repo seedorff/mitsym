@@ -3,8 +3,8 @@
         <div class="container">
             <div class="col-md-3">
 
-                <p>Symbion A/S<br>
-                Fruebjergvej 3<br>
+                <h3>Symbion A/S</h3>
+                <p>Fruebjergvej 3<br>
                 2100 København Ø</p>
 
                 <a href="tel:+4539179999">+45 3917 9999</a><br>
