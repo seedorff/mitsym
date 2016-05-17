@@ -12,10 +12,12 @@
                 
             </div>
             <div class="col-md-3">
-                <p>Hurtige links</p>
-                <p><a href="#">Helpdesk</a></p>
-                <p><a href="#">Reception</a></p>
-            
+
+                <h3>Hurtige links</h3>
+                <ul class="link-list">
+                    <li><a href="#">Helpdesk</a></li>
+                    <li><a href="#">Reception</a></li>
+                </ul>
                 
             </div>
             <div class="col-md-3">
