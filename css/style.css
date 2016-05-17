@@ -4,6 +4,11 @@
 
 body {
 	font-family: 'Lato', sans-serif;
+  background: url(../img/lounge_blured.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -251,6 +256,17 @@ form .signin {
 /*****************
   Message board - opslagstavlen
 ******************/
+.collapsed-post {
+  max-height: 65px;
+  overflow: hidden;
+}
+.post-footer {
+  margin-top: 10px;
+}
+span.show-more {
+  color: #999;
+}
+
 .selecttags, .select2-container {
 	width: 100% !important;
 }

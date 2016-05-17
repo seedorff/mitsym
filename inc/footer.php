@@ -42,16 +42,23 @@
     <script src="js/searchfield/uisearch.js"></script>
     <script src="js/select2/select2.min.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js/readmore/readmore.min.js"></script>
     <script>
         new UISearch( document.getElementById( 'sb-search' ) );
         
 
     // Only on messageboard page
-      $(document).ready(function() {
+
+    $('.post-body').readmore({
+        moreLink: '<a href="#">Vis mere</a>',
+        lessLink: '<a href="#">Vis mindre</a>'
+    });
+
+    $(document).ready(function() {
         $(".selecttags").select2({
-            placeholder: 'Vælg kategori'
+             placeholder: 'Vælg kategori'
         });
-      });
+    });
 
       $(function() {
         $( "#datepicker" ).datepicker({
