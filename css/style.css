@@ -253,6 +253,88 @@ form .signin {
   margin: 0;
   padding: 0;
 }
+
+/*****************
+  Date picker
+******************/
+
+input.date {
+  padding: 0.375rem 0.75rem;
+}
+
+/* Reset */
+.ui-widget-content .ui-icon,
+.ui-widget-header .ui-icon,
+.ui-state-default .ui-icon,
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon,
+.ui-state-active .ui-icon,
+.ui-state-highlight .ui-icon,
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight,
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error
+{border:0;background:none;}
+
+
+.ui-datepicker {
+  background: #fff;
+}
+.ui-widget-header {
+  background: none;
+  border: none;
+}
+.ui-corner-all {
+  border-radius: 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background: #e6e6e6;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+  font-family: FontAwesome;
+  text-decoration: none;
+}
+.ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+  text-decoration: none;
+}
+.ui-datepicker-prev span, .ui-datepicker-next span {
+    display: none!important;
+}
+.ui-datepicker-prev {
+    left: 15px;
+    text-align: left;
+}
+.ui-datepicker-next {
+    right: 15px;
+    text-align: right;
+}
+.ui-datepicker-prev:before {
+    content: "\f104";
+}
+.ui-datepicker-next:before {
+    content: "\f105";
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: none;
+}
+
 /*****************
   Message board - opslagstavlen
 ******************/
@@ -263,9 +345,7 @@ form .signin {
 .post-footer {
   margin-top: 10px;
 }
-span.show-more {
-  color: #999;
-}
+
 
 .selecttags, .select2-container {
 	width: 100% !important;

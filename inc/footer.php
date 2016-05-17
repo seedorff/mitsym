@@ -66,13 +66,9 @@
             dayNamesMin: [ "Sø", "Ma", "Ti", "On", "To", "Fr", "Lø" ],
             monthNames: [ "Januar", "Februar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December" ],
             firstDay: 1, 
-            weekHeader: "Uge", 
-            showWeek: true, 
             minDate: 0, 
-            maxDate: "+12M",
-            dateFormat: 'yy-mm-dd',
-            altField: "#actualDate",
-            altFormat: "RFC_1036" 
+            maxDate: "+1M",
+            dateFormat: 'dd-mm-yy' 
         });
       });
         
