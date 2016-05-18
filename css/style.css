@@ -204,6 +204,9 @@ form .signin {
     margin-left: 1rem;
   }
 }
+.navbar-toggler {
+  color: #fff !important;
+}
 /*****************
   Event feed
 ******************/
@@ -212,10 +215,6 @@ form .signin {
 }
 .event-feed .event:nth-child(odd) {
     background: rgba(255, 255, 255, 0.2);
-}
-
-.event-feed .event:nth-child(even) {
-    
 }
 .event-feed .event {
 	padding: 10px 0;
