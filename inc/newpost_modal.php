@@ -22,7 +22,7 @@
           
           <fieldset class="form-group">
             <input type="text" class="form-control" id="post-title" placeholder="Overskrift">
-            <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Din opslagstekst" maxlength="500"></textarea>
+            <textarea class="form-control" id="exampleTextarea" rows="5" placeholder="Din opslagstekst - maks 500 tegn" maxlength="500"></textarea>
           </fieldset>
 
           <fieldset class="form-group">

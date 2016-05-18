@@ -23,10 +23,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?</p>
     </div>
     <footer class="post-footer">
-        <a href="mailto:johnjohn@symbion.dk">Kontakt John Doe</a> 
+        <a href="mailto:johnjohn@symbion.dk"><i class="fa fa-envelope link-icon"></i>Kontakt John Doe</a> 
     </footer>
 </article>

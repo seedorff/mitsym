@@ -258,10 +258,31 @@ form .signin {
   Date picker
 ******************/
 
-input.date {
-  padding: 0.375rem 0.75rem;
+.ui-datepicker a,
+.ui-datepicker a:hover {
+  text-decoration: none;
 }
-
+.ui-datepicker .ui-datepicker-header {
+  margin-bottom: 4px;
+  text-align: center;
+}
+.ui-datepicker .ui-datepicker-title {
+  font-weight: 700;
+}
+.ui-datepicker .ui-datepicker-calendar {
+  table-layout: fixed;
+  width: 100%;
+}
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+  -webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  -moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  -o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
 /* Reset */
 .ui-widget-content .ui-icon,
 .ui-widget-header .ui-icon,
@@ -292,9 +313,14 @@ input.date {
 .ui-widget-header .ui-state-error
 {border:0;background:none;}
 
-
 .ui-datepicker {
-  background: #fff;
+  background-color: #fff;
+  border: 1px solid #66AFE9;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(102,175,233,.6);
+  display: none;
+  margin-top: 4px;
+  padding: 10px;
 }
 .ui-widget-header {
   background: none;
@@ -330,11 +356,9 @@ input.date {
 .ui-datepicker-next:before {
     content: "\f105";
 }
-
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   border: none;
 }
-
 /*****************
   Message board - opslagstavlen
 ******************/
@@ -344,9 +368,11 @@ input.date {
 }
 .post-footer {
   margin-top: 10px;
+  text-align: right;
 }
-
-
+.link-icon {
+  margin-right: 4px;
+}
 .selecttags, .select2-container {
 	width: 100% !important;
 }
