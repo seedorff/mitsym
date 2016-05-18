@@ -13,18 +13,31 @@
   </div>
 </div><!-- /.row -->
 
-<div class="row">
+<div class="row filter-container">
+  
+  <input id="select-type-all" name="filter-selector" type="radio" class="filter-type-all" checked="checked">
+  <label for="select-type-all" class="filter-type-all">Alle</label>
+  
+  <input id="select-type-saelges" name="filter-selector" type="radio" class="filter-saelges">
+  <label for="select-type-saelges" class="filter-label-type-saelges">Sælges</label>
+  
+  <input id="select-type-koebes" name="filter-selector" type="radio" class="filter-koebes">
+  <label for="select-type-koebes" class="filter-label-type-koebes">Købes</label>
+  
+  <input id="select-type-begivenheder" name="filter-selector" type="radio" class="filter-begivenheder">
+  <label for="select-type-begivenheder" class="filter-label-type-begivenheder">Begivenheder</label>      
+  
   <section class="col-xs-12 card-columns messageboard">    
 
     <?php require 'inc/message_board_post.php'; ?>
 
-    <?php require 'inc/message_board_post.php'; ?>
+    <?php require 'inc/message_board_post_event.php'; ?>
 
     <?php require 'inc/message_board_post.php'; ?>
 
     <?php require 'inc/message_board_post.php'; ?>
 
-    <?php require 'inc/message_board_post.php'; ?>
+    <?php require 'inc/message_board_post_event.php'; ?>
 
     <?php require 'inc/message_board_post.php'; ?>
 

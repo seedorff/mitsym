@@ -473,8 +473,15 @@ form .signin {
 }
 .card.post > .post-heading > h3 {
     margin: 0;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: 700;
+    padding-top: 4px;
+}
+.card.post h4.post-title {
+	font-size: 1rem;
+	font-weight: 700;
+	margin: 10px 0 0;
+	line-height:1.4;
 }
 .card.post > .post-heading > .post-meta {
     font-size: 12px;
@@ -483,4 +490,32 @@ form .signin {
 .card.post > .post-body {
     padding-top: 5px;
     clear:both;
+}
+//filter
+.messageboard .post {
+	display:none;
+}
+.filter-container input.filter-type-all:checked ~ .messageboard .post {
+	display:inline-block;
+}
+.filter-container input.filter-saelges:checked ~ .messageboard .saelges, 
+.filter-container input.filter-koebes:checked ~ .messageboard .koebes, 
+.filter-container input.filter-begivenheder:checked ~ .messageboard .begivenheder
+{display:inline-block;}
+
+.filter-container input {
+    display: none;
+}
+.filter-container label {
+	padding: 11px 12px;
+    line-height: 13px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color: $gray;
+}
+.filter-container input:checked + label {
+	border: 2px solid $gray;
 }
