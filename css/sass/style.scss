@@ -1,18 +1,23 @@
-/* Variables */
-$symbionprimary: #2e637b;
+@import "../../bootstrap/scss/variables";
 
+/* Colors */
+$symbion-primary: $brand-primary;
+$lightondark: #fff;
+
+/* Typography */
+$font-family-base: 'Lato', sans-serif;
 
 /*****************
   Global styles
 ******************/
 
 body {
-	font-family: 'Lato', sans-serif;
-  background: url(../img/lounge_blured.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	font-family: $font-family-base;
+	background: url(../img/lounge_blured.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 
@@ -21,10 +26,12 @@ body {
 ******************/
 
 /* Symbion */
-.bg-symbion 
-{background-color: $symbionprimary; color: #fff;}
-.bg-symbion a {
-	color: #fff;
+.bg-symbion {
+	background-color: $symbion-primary; 
+	color: $lightondark;
+}
+.bg-symbion a {	
+	color: $lightondark; 
 }
 
 /*****************
@@ -122,7 +129,7 @@ form .signin {
 	padding: 20px 65px 20px 20px;
 	font-family: inherit;
 	font-size: 20px;
-	color: #2c3e50;
+	color: $gray-dark;
 }
 
 .sb-icon-search,
@@ -165,7 +172,7 @@ form .signin {
 
 .sb-search.sb-search-open .sb-icon-search,
 .no-js .sb-search .sb-icon-search {
-	background: #336d88;
+	background: $symbion-primary;
 	color: #fff;
 	z-index: 11;
 }
@@ -321,7 +328,7 @@ form .signin {
 
 .ui-datepicker {
   background-color: #fff;
-  border: 1px solid #66AFE9;
+  border: 1px solid $input-border-color;
   border-radius: 4px;
   box-shadow: 0 0 8px rgba(102,175,233,.6);
   display: none;
@@ -384,7 +391,7 @@ form .signin {
 }
 .select2-container--default .select2-selection--multiple {
 	background-color: inherit;
-	border: 1px solid #ccc;
+	border: 1px solid $input-border-color;
 	border-radius: inherit;
 }
 .select2-container--default .select2-selection--multiple .select2-selection__rendered {
@@ -427,7 +434,7 @@ form .signin {
     right: 0px;
     width: 0px;
     padding: 5px 0px 5px 0px;
-    background-color: rgb(245, 245, 245);
+    background-color: $gray-lightest;
     font-size: 0.75rem;
     overflow: hidden;
 }
@@ -437,7 +444,7 @@ form .signin {
     top: 0px;
     right: 0px;
     height: 100%;
-	border-right: 3px solid #82cfed;
+	border-right: 3px solid $brand-info;
 }
 .card.post > .post-tags > ul:hover > li,
 .card.post > .post-tags > ul > li:first-child {
@@ -450,7 +457,7 @@ form .signin {
     background-color: #fff;   
 }
 .card.post > .post-tags > ul > li:hover {
-    background-color: #82cfed;
+    background-color: $brand-info;
     color: #fff;
 }
 .card.post > .post-heading {
