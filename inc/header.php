@@ -18,7 +18,7 @@
     <link href="css/select2/select2.min.css" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
-    <link href="css/style.css" rel="stylesheet" type='text/css'>
+    <link href="css/style.min.css" rel="stylesheet" type='text/css'>
     <!-- JS -->
     <script src="js/searchfield/modernizr.custom.js"></script>
   </head>
