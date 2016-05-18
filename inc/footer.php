@@ -1,7 +1,7 @@
     </div><!-- /.container -->
     <footer class="site-footer bg-symbion">
         <div class="container">
-            <div class="col-md-3">
+            <div class="col-md-3 footer-col">
 
                 <h3>Symbion A/S</h3>
                 <p>Fruebjergvej 3<br>
@@ -11,7 +11,7 @@
                 <a href="mailto:info@symbion.dk">info@symbion.dk</a>
                 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 footer-col">
 
                 <h3>Hurtige links</h3>
                 <ul class="link-list">
@@ -20,10 +20,10 @@
                 </ul>
                 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 footer-col">
                 <!-- Empty col -->
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 footer-col">
                 <!-- Empty col -->
 
             </div>
@@ -44,7 +44,8 @@
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="js/readmore/readmore.min.js"></script>
     <script>
-        new UISearch( document.getElementById( 'sb-search' ) );
+    
+    new UISearch( document.getElementById( 'sb-search' ) );
         
 
     // Only on messageboard page

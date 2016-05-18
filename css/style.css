@@ -253,6 +253,9 @@ form .signin {
   margin: 0;
   padding: 0;
 }
+.site-footer .footer-col {
+  margin-bottom: 15px;
+}
 
 /*****************
   Date picker
