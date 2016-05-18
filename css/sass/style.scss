@@ -13,7 +13,7 @@ $font-family-base: 'Lato', sans-serif;
 
 body {
 	font-family: $font-family-base;
-	background: url(../img/lounge_blured.jpg) no-repeat center center fixed; 
+	background: url(../img/background/shelf.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -514,8 +514,8 @@ form .signin {
     display: inline-block;
     border: 2px solid transparent;
     cursor: pointer;
-    color: $gray;
+    color: $gray-dark;
 }
 .filter-container input:checked + label {
-	border: 2px solid $gray;
+	border: 2px solid $gray-dark;
 }

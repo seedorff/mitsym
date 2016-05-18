@@ -23,7 +23,7 @@
     <script src="js/searchfield/modernizr.custom.js"></script>
   </head>
 
-  <body>
+  <body style="background-image: url(<?php echo $site_url; ?>/img/rand_bg.php)">
 
     <div class="container header">
       <div class="row">
