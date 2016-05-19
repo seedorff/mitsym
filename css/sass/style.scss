@@ -375,6 +375,9 @@ form .signin {
 /*****************
   Message board - opslagstavlen
 ******************/
+.modal.new-post .modal-body {
+  background: $gray-lightest;
+}
 .collapsed-post {
   max-height: 65px;
   overflow: hidden;
@@ -512,10 +515,10 @@ form .signin {
     font-size: 13px;
     font-weight: bold;
     display: inline-block;
-    border: 2px solid transparent;
     cursor: pointer;
-    color: $gray-dark;
+    color: darken( $symbion-primary, 10% );
 }
 .filter-container input:checked + label {
-	border: 2px solid $gray-dark;
+  color: #fff;
+  background: $symbion-primary;
 }
