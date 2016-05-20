@@ -9,8 +9,8 @@
         <span class="event-month">Maj</span>
       </div>
       <div class="col-xs-9 event-description">
-        <h4>Netværksgruppemøde: Overvejelser fra en marketingschef.</h4>
-        <div class="event-type">Åbent for alle</div>
+        <h4>Netværksgruppemøde: Overvejelser fra en marketingschef</h4>
+        <div class="event-type open"><span class="type">åbent</span></div>
       </div>
     </div>
     <!-- /Event loop -->
@@ -21,7 +21,8 @@
         <span class="event-month">Maj</span>
       </div>
       <div class="col-xs-9 event-description">
-        Få inspiration til at booke kundemøder over telefonen.
+        <h4>Få inspiration til at booke kundemøder over telefonen</h4>
+        <div class="event-type internal"><span class="type">internt</span></div>
       </div>
     </div>
 
@@ -31,17 +32,8 @@
         <span class="event-month">Maj</span>
       </div>
       <div class="col-xs-9 event-description">
-        Symbion Sportsdag.
-      </div>
-    </div>
-
-    <div class="row event">
-      <div class="col-xs-3 event-meta">
-        <span class="event-date">03</span>
-        <span class="event-month">Jun</span>
-      </div>
-      <div class="col-xs-9 event-description">
-        Innovationsworkshop med KIE-modellen.
+        <h4>Symbion Sportsdag</h4>
+        <div class="event-type internal"><span class="type">internt</span></div>
       </div>
     </div>
 
@@ -51,7 +43,8 @@
         <span class="event-month">Jun</span>
       </div>
       <div class="col-xs-9 event-description">
-        Netværksarrangement i Symbion Konferencecenter
+        <h4>Netværksarrangement i Symbion Konferencecenter</h4>
+        <div class="event-type external"><span class="type">eksternt</span></div>
       </div>
     </div>
 </div>
