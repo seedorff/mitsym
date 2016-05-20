@@ -19,6 +19,9 @@ body {
   	-o-background-size: cover;
   	background-size: cover;
 }
+form label {
+ margin-bottom: .2rem;
+}
 
 
 /*****************
@@ -39,9 +42,7 @@ body {
 ******************/
 
 .form-signin {
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
+
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox {

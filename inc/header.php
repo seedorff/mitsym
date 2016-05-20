@@ -30,7 +30,10 @@
         <div class="logo col-xs-6"><a href="<?php echo $site_url; ?>"><img src="img/symbion_logo.png" alt="Symbion Intranet"></a></div>
         <div class="col-xs-6 login-meta">
           <div class="pull-md-right">
-            <?php require_once 'inc/login.php' ?>
+            <div class="current-user">
+              <strong><span class="hidden-xs-down">Logget ind som </span><a href="<?php echo $site_url; ?>/?page=min-side">John Doe</a></strong><br>
+              <a href="<?php echo $site_url; ?>/?page=login">Log ud</a>
+            </div>
           </div>
         </div>
       </div>
