@@ -1,4 +1,5 @@
     </div><!-- /.container -->
+    <?php if (!($_GET['page'] === 'login')):?>
     <footer class="site-footer bg-symbion">
         <div class="container">
             <div class="col-md-3 footer-col">
@@ -29,6 +30,7 @@
             </div>
         </div>
     </footer>
+    <?php endif; ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

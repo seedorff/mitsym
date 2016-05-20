@@ -24,7 +24,7 @@
   </head>
 
   <body style="background-image: url(<?php echo $site_url; ?>/img/rand_bg.php)">
-
+    <?php if (!($_GET['page'] === 'login')):?>
     <div class="container header">
       <div class="row">
         <div class="logo col-xs-6"><a href="<?php echo $site_url; ?>"><img src="img/symbion_logo.png" alt="Symbion Intranet"></a></div>
@@ -60,5 +60,5 @@
         </div>
       </div>
     </div>
-
+    <?php endif; ?>
     <div class="container">
