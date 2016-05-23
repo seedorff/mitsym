@@ -19,25 +19,6 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
     <link href="css/style.min.css" rel="stylesheet" type='text/css'>
-
-    <style>
-      body {
-        <?php 
-        $font = $_GET['font']; 
-        if ($font === 'fira') {
-          $isfont = 'Fira Sans';
-        }
-        elseif ($font === 'roboto') {
-          $isfont = 'Roboto';
-        }
-        else {
-          $isfont = 'Lato';
-        }
-
-        ?>
-        font-family: '<?php echo $isfont; ?>', sans-serif;
-      }
-    </style>
     <!-- JS -->
     <script src="js/searchfield/modernizr.custom.js"></script>
   </head>

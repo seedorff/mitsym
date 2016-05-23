@@ -5,7 +5,7 @@ $symbion-primary: $brand-primary;
 $lightondark: #fff;
 
 /* Typography */
-$font-family-base: 'Lato', sans-serif;
+$font-family-base: 'Fira Sans', sans-serif;
 
 /*****************
   Global styles
@@ -192,6 +192,9 @@ form .signin {
 .navbar-nav .nav-item+.nav-item {
 	margin-left: 2rem;
 }
+.navbar-toggler {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
 
 .navbar-brand {
   float: none;
@@ -254,7 +257,7 @@ form .signin {
 	font-size: 0.8rem;
   position:relative;
 }
-.event h4, .room h4 {
+.event h4 {
   font-size: 0.8rem;
   margin-bottom:2px;
 }
@@ -300,7 +303,10 @@ form .signin {
   font-weight: 700;
   font-size: 0.7rem;
 }
-
+.room h4 {
+  font-size: 0.8rem;
+  margin:0;
+}
 /*****************
   footer
 ******************/
