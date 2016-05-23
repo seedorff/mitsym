@@ -151,8 +151,8 @@ form .signin {
 .sb-search-submit {
 	background: #fff; /* IE needs this */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
-    filter: alpha(opacity=0); /* IE 5-7 */
-    opacity: 0;
+  filter: alpha(opacity=0); /* IE 5-7 */
+  opacity: 0;
 	color: transparent;
 	border: none;
 	outline: none;
@@ -252,9 +252,10 @@ form .signin {
 }
 .event h4 {
   font-size: 0.8rem;
+  margin-bottom:2px;
 }
 .event-type {
-  text-align: right;
+  text-align: left;
 }
 .event .event-type .type {
   color: #2e637b;

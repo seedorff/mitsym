@@ -18,6 +18,6 @@
     <a class="nav-link" href="<?php echo $site_url; ?>/?page=praktisk-info">Praktisk info</a>
   </li>
   <li class="nav-item <?php if (($_GET['page'] === 'booking')): ?> active<?php endif; ?>">
-    <a class="nav-link" href="#">Booking</a>
+    <a class="nav-link" href="<?php echo $site_url; ?>/?page=booking">Booking</a>
   </li>
 </ul>

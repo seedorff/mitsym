@@ -1,34 +1,36 @@
     </div><!-- /.container -->
     <?php if (!($_GET['page'] === 'login')):?>
-    <footer class="site-footer bg-symbion">
+    <footer class="site-footer bg-symbion m-t-2">
         <div class="container">
-            <div class="col-md-3 footer-col">
+            <div class="row">
+                <div class="col-md-3 footer-col">
 
-                <h3>Symbion A/S</h3>
-                <p>Fruebjergvej 3<br>
-                2100 København Ø</p>
+                    <h3>Symbion A/S</h3>
+                    <p>Fruebjergvej 3<br>
+                    2100 København Ø</p>
 
-                <a href="tel:+4539179999">+45 3917 9999</a><br>
-                <a href="mailto:info@symbion.dk">info@symbion.dk</a>
-                
-            </div>
-            <div class="col-md-3 footer-col">
+                    <a href="tel:+4539179999">+45 3917 9999</a><br>
+                    <a href="mailto:info@symbion.dk">info@symbion.dk</a>
+                    
+                </div>
+                <div class="col-md-3 footer-col">
 
-                <h3>Hurtige links</h3>
-                <ul class="link-list">
-                    <li><a href="#">Helpdesk</a></li>
-                    <li><a href="#">Reception</a></li>
-                </ul>
-                
-            </div>
-            <div class="col-md-3 footer-col">
-                <!-- Empty col -->
-            </div>
-            <div class="col-md-3 footer-col">
-                <!-- Empty col -->
+                    <h3>Hurtige links</h3>
+                    <ul class="link-list">
+                        <li><a href="#">Helpdesk</a></li>
+                        <li><a href="#">Reception</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col-md-3 footer-col">
+                    <!-- Empty col -->
+                </div>
+                <div class="col-md-3 footer-col">
+                    <!-- Empty col -->
 
-            </div>
-        </div>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
     </footer>
     <?php endif; ?>
 

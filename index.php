@@ -6,7 +6,7 @@ if (file_exists($_GET['page'] . '.php') AND isset($_GET['page'])):
 	require_once $_GET['page'] . '.php';
 
 else:
-require_once 'page.php'; 
+require_once 'frontpage.php'; 
 endif;
 require_once 'inc/footer.php' 
 ?>
