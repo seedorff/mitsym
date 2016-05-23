@@ -5,8 +5,8 @@ $data=json_decode($json,true);
 ?>
 
 <div class="card room-feed card-block">
-  <h3 class="card-title">Lokaleoversigt i dag</h3>
-    <p class="card-text">Hvad og hvor?</p>
+  <h3 class="card-title">Lokaler på Symbion</h3>
+    <p class="card-text">I dag.</p>
 
     <!-- room loop -->
     <?php
