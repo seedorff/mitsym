@@ -5,13 +5,9 @@
   </div><!-- /.jumbotron -->
 
   <div class="card-columns">
-    <div class="card card-block card-inverse card-warning">
-        <h3 class="card-title">Husk parkering</h3>
-        <p class="card-text">De nye parkeringsregler er trådt i kraft pr. 2. maj 2016. Ønsker du at parkere på symbions område, skal du have en gyldig p-licens.</p>
-        <p class="card-text">Anvender .card-warning for baggrund.</p>
-        <a href="#" class="btn btn-secondary">Indtast nummerplade</a>
-    </div>
-  	<?php require_once 'inc/event_feed.php'; ?>
+    
+    <?php require_once 'inc/widgets/roomstoday_feed.php'; ?>
+  	<?php require_once 'inc/widgets/event_feed.php'; ?>
     
     <div class="card">
       <img class="card-img-top img-fluid" src="img/menu.jpg" alt="Card image cap">
@@ -24,7 +20,13 @@
   		Fre. Lammecuvette med flødekartofler</p>
       </div>
     </div>
-
+    
+    <div class="card card-block card-inverse card-warning">
+        <h3 class="card-title">Husk parkering</h3>
+        <p class="card-text">De nye parkeringsregler er trådt i kraft pr. 2. maj 2016. Ønsker du at parkere på symbions område, skal du have en gyldig p-licens.</p>
+        <p class="card-text">Anvender .card-warning for baggrund.</p>
+        <a href="#" class="btn btn-secondary">Indtast nummerplade</a>
+    </div>
     <div class="card card-block">
       <blockquote class="card-blockquote">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>

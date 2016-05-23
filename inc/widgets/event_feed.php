@@ -1,6 +1,6 @@
 <div class="card event-feed card-block card-inverse card-primary">
   <h3 class="card-title">Arrangementer</h3>
-    <p class="card-text">Alle kommende arrangementer. Både åbne og interne.</p>
+    <p class="card-text">Alle kommende arrangementer.</p>
 
     <!-- Event loop -->
     <div class="row event">

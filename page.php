@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-md-8 main-content">
+	<div class="col-lg-8 main-content">
 		<div class="card card-block">
 	  		<h1>Standard sideskabelon</h1>
 	  		<p>Standard skabelon til indholdsside af anden karakter.</p>
@@ -23,14 +23,16 @@
 	  		Te dicta euripidis vituperata vis, no elit assum tantas duo. In adipisci philosophia eam, dicat latine nam at. Eum ut viderer pericula, ei patrioque abhorreant dissentiet his, consequuntur mediocritatem sea ea. Sed sale saepe consequat no, soleat percipitur contentiones id per. Eos ea justo atqui. Ex facete molestie placerat mei, cu eius diceret aliquando eos. Nec ne liber efficiantur.
 	  		</p>
   		</div>
- 	</div>
- 	<div class="col-md-4">
+ 	</div><!-- /main-content -->
+ 	<aside class="col-lg-4">
  		<div class="card card-block">
  			<h3 class="card-title">Sidebar titel</h3>
  			<p class="card-text">Element i sidebaren, der eventuelt kan anvendes som cross-page indhold.</p>
  			<p class="card-text">En form for widgets der kan gå igen og placeres på forskellige typer af sider.</p>
  			<a href="#" class="btn btn-primary">Knapeksempel</a>
  		</div>
- 	</div>
+ 		<?php require_once 'inc/widgets/event_feed.php'; ?>
+ 		<?php require_once 'inc/widgets/roomstoday_feed.php'; ?>
+ 	</aside>
 
 </div>
