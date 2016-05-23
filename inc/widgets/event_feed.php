@@ -44,7 +44,7 @@
       </div>
       <div class="col-xs-9 event-description">
         <h4>Netværksarrangement i Symbion Konferencecenter</h4>
-        <div class="event-type external"><span class="type">eksternt</span></div>
+        <div class="event-type open"><span class="type">åbent</span></div>
       </div>
     </div>
 </div>
