@@ -577,14 +577,18 @@ form .signin {
 }
 .filter-container label {
 	padding: 11px 12px;
-    line-height: 13px;
-    font-size: 13px;
-    font-weight: bold;
-    display: inline-block;
-    cursor: pointer;
-    color: darken( $symbion-primary, 10% );
+  line-height: 13px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  color: darken( $symbion-primary, 10% );
 }
 .filter-container input:checked + label {
   color: #fff;
   background: $symbion-primary;
+}
+.post-feed h4 {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
 }

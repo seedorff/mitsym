@@ -8,7 +8,6 @@
     
   	<?php require_once 'inc/widgets/event_feed.php'; ?>
     <?php require_once 'inc/widgets/ugemenu.php'; ?>
-
     <?php require_once 'inc/widgets/opslagstavle_feed.php'; ?>
     
     <div class="card card-block card-inverse card-warning">
