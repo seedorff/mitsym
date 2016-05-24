@@ -1,0 +1,50 @@
+[
+	{
+		"post-id": "1234",
+		"post-title": "Sofa Sælges",
+		"posted-in": "Sælges",
+		"post-date": "27. april, 2016",
+		"expiration-date": "1. maj, 2016",
+		"author": "Hans Hansen",
+		"author-img": "https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46",
+		"author-email": "hanshansen@symbion.dk",
+		"author-company": "Symbion",
+		"the-post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?"
+	},
+	{
+		"post-id": "1235",
+		"post-title": "Hævesænkeborde købes",
+		"posted-in": "Købes",
+		"post-date": "21. april, 2016",
+		"expiration-date": "1. maj, 2016",
+		"author": "Mikael Jensen",
+		"author-img": "https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46",
+		"author-email": "hanshansen@symbion.dk",
+		"author-company": "Symbion",
+		"the-post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?"
+	},
+	{
+		"post-id": "1236",
+		"post-title": "Åben reception hos Symbion",
+		"posted-in": "Begivenheder",
+		"post-date": "2. maj, 2016",
+		"expiration-date": "14. maj, 2016",
+		"author": "Brian List",
+		"author-img": "https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46",
+		"author-email": "brianlist@symbion.dk",
+		"author-company": "Symbion",
+		"the-post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?"
+	},
+	{
+		"post-id": "1237",
+		"post-title": "Åben reception hos Virksomhed",
+		"posted-in": "Begivenheder",
+		"post-date": "3. maj, 2016",
+		"expiration-date": "15. maj, 2016",
+		"author": "Ole Jensen",
+		"author-img": "https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46",
+		"author-email": "olejensen@virksomhed.dk",
+		"author-company": "Virksomhed",
+		"the-post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?"
+	}
+]

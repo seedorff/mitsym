@@ -8,15 +8,11 @@
             <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Slet</a></li>
         </ul>
     </div>
-    <div class="post-tags">
-        <ul>
-            <li>#Begivenheder</li>
-        </ul>
-    </div>
+
     <header class="post-heading">
-        <img class="img-circle pull-left" src="https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46" alt="User image" />
-        <h3>Hans Hansen</h3>
-        <div class="post-meta">Skrevet: <span class="post-date">25. april, 2016</span></div>
+        <img class="pull-left" src="https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46" alt="User image" />
+        <h5>Hans Hansen <i class="fa fa-caret-right text-muted"></i> <span class="posted-in">Begivenheder</span></h5>
+        <div class="post-meta"><span class="post-date">25. april, 2016</span></div>
     </header>
     <h4 class="post-title">Invitation til åben reception med en lang titel</h4>
     <div class="post-body collapsed-post">

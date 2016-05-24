@@ -27,17 +27,7 @@
   <input id="select-type-begivenheder" name="filter-selector" type="radio" class="filter-begivenheder">
   <label for="select-type-begivenheder" class="filter-label-type-begivenheder">Begivenheder</label>      
   
-  <section class="card-columns messageboard">    
-
-    <?php require 'inc/message_board_post.php'; ?>
-
-    <?php require 'inc/message_board_post_event.php'; ?>
-
-    <?php require 'inc/message_board_post.php'; ?>
-
-    <?php require 'inc/message_board_post.php'; ?>
-
-    <?php require 'inc/message_board_post_event.php'; ?>
+  <section class="card-columns-2 messageboard">    
 
     <?php require 'inc/message_board_post.php'; ?>
 

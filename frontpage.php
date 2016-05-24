@@ -6,20 +6,10 @@
 
   <div class="card-columns">
     
-    <?php require_once 'inc/widgets/roomstoday_feed.php'; ?>
   	<?php require_once 'inc/widgets/event_feed.php'; ?>
-    
-    <div class="card">
-      <img class="card-img-top img-fluid" src="img/menu.jpg" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Ugemenu (uge 18)</h4>
-        <p class="card-text">Man. Kylling med karrysauce<br>
-  		Tirs. Flæskesteg<br>
-  		Ons. Fisk<br>
-  		Tors. Oksespidsbryst med peberrodssauce<br>
-  		Fre. Lammecuvette med flødekartofler</p>
-      </div>
-    </div>
+    <?php require_once 'inc/widgets/ugemenu.php'; ?>
+
+    <?php require_once 'inc/widgets/opslagstavle_feed.php'; ?>
     
     <div class="card card-block card-inverse card-warning">
         <h3 class="card-title">Husk parkering</h3>
