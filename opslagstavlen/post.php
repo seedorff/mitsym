@@ -7,19 +7,34 @@ $postID = $_GET['post-id'];
 foreach($data as $key => $post){
 if($post['id'] == $postID): ?>
 
-<div class="row">
-	<div class="col-lg-8 main-content">
+<div class="row post-single">
+	<article class="col-lg-8 main-content">
 		<div class="card card-block">
+			<header class="row post-heading">
+				<div class="col-xs-8"> 
+			    	<?php echo $post['author']; ?> <i class="fa fa-caret-right text-muted"></i> <span class="posted-in"><?php echo $post['posted-in']; ?></span>   
+			    </div>
+			    <div class="col-xs-4 post-date">
+			    	<?php echo $post['post-date']; ?>			    	
+			    </div>
+			</header>
 	  		<h1><?php echo $post['post-title']; ?></h1>
 	  		<p><?php echo $post['the-post']; ?></p>
-
-			
-	  		</p>
+	  		<footer class="row">
+	  			<div class="col-xs-2">
+	  				<img class="author-img img-fluid" src="<?php echo $post['author-img']; ?>" alt="<?php echo $post['author']; ?>" />
+	  			</div>
+	  			<div class="col-xs-10">
+	  				<?php echo $post['author']; ?>
+	  				<div class="company"><?php echo $post['author-company']; ?></div>
+	  			</div>
+	  		</footer>
   		</div>
- 	</div><!-- /main-content -->
+ 	</article><!-- /main-content -->
  	<aside class="col-lg-4">
  		<?php require_once 'inc/widgets/opslagstavle_feed.php'; ?>
  	</aside>
 
 </div>
 <?php endif; } ?>
+
