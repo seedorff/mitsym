@@ -14,7 +14,7 @@ $data=json_decode($json,true);
     <div class="row post">
       
       <div class="col-xs-12">
-        <h4><a href=""><?php echo $post['post-title']; ?></a></h4>
+        <h4><a href="<?php echo $site_url; ?>/?post-id=<?php echo $post['id']; ?>"><?php echo $post['post-title']; ?></a></h4>
       </div>
 
     </div>

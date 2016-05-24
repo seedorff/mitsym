@@ -4,6 +4,9 @@ require_once 'inc/header.php';
 
 if (file_exists($_GET['page'] . '.php') AND isset($_GET['page'])):
 	require_once $_GET['page'] . '.php';
+elseif (isset($_GET['post-id'])):
+
+	require_once 'opslagstavlen/post.php';
 
 else:
 require_once 'frontpage.php'; 
