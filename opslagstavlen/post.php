@@ -21,10 +21,10 @@ if($post['id'] == $postID): ?>
 	  		<h1><?php echo $post['post-title']; ?></h1>
 	  		<p><?php echo $post['the-post']; ?></p>
 	  		<footer class="row">
-	  			<div class="col-xs-2">
+	  			<div class="col-xs-3 col-md-2">
 	  				<img class="author-img img-fluid" src="<?php echo $post['author-img']; ?>" alt="<?php echo $post['author']; ?>" />
 	  			</div>
-	  			<div class="col-xs-10">
+	  			<div class="col-xs-9 col-md-10">
 	  				<?php echo $post['author']; ?>
 	  				<div class="company"><?php echo $post['author-company']; ?></div>
 	  			</div>
