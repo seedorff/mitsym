@@ -1,7 +1,7 @@
-<div class="jumbotron">
+<div class="jumbotron" id="alert-23432">
   <h1>Information om opslagstavlen</h1>
   <p class="lead">Her kan en beskrivelse af opslagstavlens funktioner og muligheder fremgå. <br>Denne informationskasse kan med fordel skjules på brugerniveau.</p>
-  <a class="btn btn-sm btn-primary" href="../../components/#navbar" role="button">Skjul denne besked</a>
+  <button class="btn btn-sm btn-primary" href="" role="button" onclick="$('#alert-23432').hide()">Skjul denne besked</button>
 </div><!-- /.jumbotron -->
 
 <div class="row new-post">
