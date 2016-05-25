@@ -295,6 +295,7 @@ form .signin {
 ******************/
 .room-feed {
   background: lighten( $brand-success, 30% );
+  border-color: lighten( $brand-success, 30% );
 }
 .room-feed .room-description {
   word-break: keep-all;
@@ -593,8 +594,19 @@ form .signin {
 /*****************
   Message board - post feed box
 ******************/
+.card.post-feed {
+  background: lighten( $brand-info, 20% );
+  border-color: lighten( $brand-info, 20% );
+}
 .post-feed .post {
   margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.post-feed .post:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .post-meta {
   font-size: 0.8rem;
