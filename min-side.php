@@ -3,7 +3,7 @@
     <div class="card card-block">
         <h3 class="card-title">Printforbrug</h3>
         <p class="card-text">Se dit printforbrug.</p>
-        <a href="#" class="btn btn-secondary">Printforbrug</a>
+        <a href="<?php echo $site_url; ?>?page=printforbrug" class="btn btn-secondary">Printforbrug</a>
     </div>
 
     <div class="card card-block">

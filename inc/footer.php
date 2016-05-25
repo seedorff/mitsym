@@ -66,7 +66,13 @@
     });
 
       $(function() {
-        $( "#datepicker" ).datepicker({
+        $( ".datepicker" ).datepicker({
+            
+            dayNamesMin: [ "Sø", "Ma", "Ti", "On", "To", "Fr", "Lø" ],
+            monthNames: [ "Januar", "Februar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December" ],
+            dateFormat: 'dd-mm-yy' 
+        });
+        $( "#post-expiration" ).datepicker({
             
             dayNamesMin: [ "Sø", "Ma", "Ti", "On", "To", "Fr", "Lø" ],
             monthNames: [ "Januar", "Februar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December" ],

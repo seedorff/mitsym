@@ -26,7 +26,7 @@
           </fieldset>
 
           <fieldset class="form-group">
-            <input type="text" class="form-control" id="datepicker" placeholder="Udløbsdato">
+            <input type="text" class="form-control" id="post-expiration" placeholder="Udløbsdato">
           </fieldset>
 
         </div>
