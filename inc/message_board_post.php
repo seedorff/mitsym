@@ -27,7 +27,7 @@ endif;
     <header class="post-heading">
         <img class="pull-left" src="<?php echo $post['author-img']; ?>" alt="User image" />
         <h5><?php echo $post['author']; ?><i class="fa fa-caret-right text-muted"></i><span class="posted-in"><?php echo $post['posted-in']; ?></span></h5>
-        <div class="post-meta"><span class="post-date"><?php echo $post['post-date']; ?></span></div>
+        <div class="post-meta text-muted"><span class="post-date"><?php echo $post['post-date']; ?></span></div>
     </header>
     <h4 class="post-title"><a href="<?php echo $site_url; ?>/?post-id=<?php echo $post['id']; ?>"><?php echo $post['post-title']; ?></a></h4>
     <div class="post-body collapsed-post">

@@ -10,12 +10,12 @@ if($post['id'] == $postID): ?>
 <div class="row post-single">
 	<article class="col-lg-8 main-content">
 		<div class="card card-block">
-			<header class="row post-heading">
+			<header class="row post-heading text-muted">
 				<div class="col-xs-8"> 
-			    	<?php echo $post['author']; ?><i class="fa fa-caret-right text-muted"></i><span class="posted-in"><?php echo $post['posted-in']; ?></span>   
+			    	<?php echo $post['author']; ?><i class="fa fa-caret-right"></i><span class="posted-in"><?php echo $post['posted-in']; ?></span>   
 			    </div>
 			    <div class="col-xs-4 post-date">
-			    	<i class="fa fa-clock-o text-muted"></i><?php echo $post['post-date']; ?>			    	
+			    	<i class="fa fa-clock-o"></i><?php echo $post['post-date']; ?>			    	
 			    </div>
 			</header>
 	  		<h1><?php echo $post['post-title']; ?></h1>
