@@ -8,6 +8,10 @@ elseif (isset($_GET['post-id'])):
 
 	require_once 'opslagstavlen/post.php';
 
+elseif (isset($_GET['company-id'])):
+
+	require_once 'company/single_company.php';
+
 else:
 require_once 'frontpage.php'; 
 endif;

@@ -35,6 +35,18 @@ form label {
 .no-gutter-right {
   padding-right: 0;
 }
+ul.no-style-list {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+.title-meta {
+  font-size: .9rem;
+  margin-bottom: 1rem;
+}
+.title-meta i {
+  margin:0 5px;
+}
 /*****************
   Colors
 ******************/
@@ -595,6 +607,20 @@ form .signin {
   background: $symbion-primary;
 }
 /*****************
+  feed cards general styling
+******************/
+.card.feed h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+}
+.card.feed .feed-item {
+  margin-bottom: 10px;
+}
+.card.feed .feed-meta {
+  font-size: 0.8rem;
+}
+
+/*****************
   Message board - post feed box
 ******************/
 .room-feed .room:nth-child(odd),
@@ -611,7 +637,6 @@ form .signin {
 }
 .post-meta {
   font-size: 0.8rem;
-  margin-bottom: 2px;
 }
 .post-feed h4 {
   font-size: 0.9rem;

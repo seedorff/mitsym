@@ -4,7 +4,7 @@ $json=file_get_contents($url);
 $data=json_decode($json,true);
 ?>
 
-<div class="card post-feed card-block">
+<div class="card feed post-feed card-block">
   <h3 class="card-title"><a href="<?php echo $site_url; ?>/?page=opslagstavlen">Opslagstavlen</a></h3>
     <p class="card-text">Seneste opslag.</p>
 

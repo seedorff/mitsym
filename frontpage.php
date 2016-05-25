@@ -16,6 +16,7 @@
         <p class="card-text">Anvender .card-warning for baggrund.</p>
         <a href="#" class="btn btn-secondary">Indtast nummerplade</a>
     </div>
+    <?php require_once 'inc/widgets/nyevirksomheder.php'; ?>
 
     </div><!-- /.card-columns -->
   </div>

@@ -1,0 +1,68 @@
+[
+	{
+		"id": "6000",
+		"company": "Symbion A/S",
+		"location": "Symbion",
+		"move-in-date": "01/08/2016",
+		"cvr": "12345678",
+		"phone": "87654321",
+		"website": "http://symbion.dk",
+		"email": "hej@symbion.dk",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?",
+		"employees": [
+			{
+				"name": "Hans Hansen"
+			},
+			{
+				"name": "Peter Jensen"
+			},
+			{
+				"name": "Ulla Rollo"
+			}
+		]
+	},
+	{
+		"id": "6001",
+		"company": "Index Data A/S",
+		"location": "The Orbit",
+		"move-in-date": "01/08/2014",
+		"cvr": "12345678",
+		"phone": "87654321",
+		"website": "http://symbion.dk",
+		"email": "hej@symbion.dk",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?",
+		"employees": [
+			{
+				"name": "Hans Hansen"
+			},
+			{
+				"name": "Peter Jensen"
+			},
+			{
+				"name": "Ulla Rollo"
+			}
+		]
+	},
+	{
+		"id": "6002",
+		"company": "Mailbeez ApS",
+		"location": "Symbion",
+		"move-in-date": "01/05/2014",
+		"cvr": "12345678",
+		"phone": "87654321",
+		"website": "http://symbion.dk",
+		"email": "hej@symbion.dk",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, velit, pariatur! Assumenda est velit quos obcaecati ea saepe laudantium, quod totam dolores omnis error sunt repudiandae officiis optio explicabo corrupti?",
+		"employees": [
+			{
+				"name": "Hans Hansen"
+			},
+			{
+				"name": "Peter Jensen"
+			},
+			{
+				"name": "Ulla Rollo"
+			}
+		]
+	}
+]
