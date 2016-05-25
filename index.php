@@ -12,6 +12,10 @@ elseif (isset($_GET['company-id'])):
 
 	require_once 'company/single_company.php';
 
+elseif (isset($_GET['search'])):
+
+	require_once 'search.php';
+
 else:
 require_once 'frontpage.php'; 
 endif;

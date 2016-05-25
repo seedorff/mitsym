@@ -10,6 +10,11 @@
   		</div>
  	</div><!-- /main-content -->
  	<aside class="col-lg-4 sidebar">
+ 		<div class="card card-block">
+ 		  <h3 class="card-title">Medarbejdere</h3>
+ 		  <p class="card-text">Se oplysninger og tilføj nye medarbejdere til din virksomhed.</p>
+ 		  <a href="<?php echo $site_url; ?>?page=medarbejdere" class="btn btn-secondary">Se medarbejdere</a>
+ 		</div>
  		<?php require_once 'inc/widgets/nyevirksomheder.php'; ?>
  	</aside>
 </div>
