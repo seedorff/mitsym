@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-lg-12 main-content">
+	<div class="col-lg-8 main-content">
 		<div class="card card-block">
 	  		<h1>Stamdata for din virksomhed</h1>
 	  		 						
@@ -9,4 +9,7 @@
 	  		
   		</div>
  	</div><!-- /main-content -->
+ 	<aside class="col-lg-4 sidebar">
+ 		<?php require_once 'inc/widgets/nyevirksomheder.php'; ?>
+ 	</aside>
 </div>
