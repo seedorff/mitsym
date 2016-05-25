@@ -29,6 +29,9 @@ form label {
   margin-left: 7px;
   font-size: 90%;
 }
+.no-gutter-left {
+  padding-left: 0;
+}
 .no-gutter-right {
   padding-right: 0;
 }
@@ -236,10 +239,10 @@ form .signin {
 .event-feed {
 	color: #fff;
 }
-.event-feed .event:nth-child(odd), .room-feed .room:nth-child(odd) {
+.event-feed .event:nth-child(odd) {
     background: rgba(255, 255, 255, 0.2);
 }
-.event-feed .event, .room-feed .room {
+.event-feed .event, .room-feed .room, .post-feed .post {
 	padding: 10px 0;
 	margin-left: -1.3rem;
 	margin-right: -1.3rem;
@@ -297,7 +300,7 @@ form .signin {
   background: lighten( $brand-success, 30% );
   border-color: lighten( $brand-success, 30% );
 }
-.room-feed .room-description {
+.room-feed .room-description, .post-feed .post-row {
   word-break: keep-all;
   padding-left: 1.3rem;
 }
@@ -594,28 +597,27 @@ form .signin {
 /*****************
   Message board - post feed box
 ******************/
+.room-feed .room:nth-child(odd),
+.post-feed .post:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.3);
+}
 .card.post-feed {
   background: lighten( $brand-info, 20% );
   border-color: lighten( $brand-info, 20% );
 }
 .post-feed .post {
-  margin-bottom: 10px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
-.post-feed .post:last-child {
-  border-bottom: none;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 .post-meta {
   font-size: 0.8rem;
+  margin-bottom: 2px;
 }
 .post-feed h4 {
   font-size: 0.9rem;
   margin-bottom: 0px;
 }
-.post-feed .post-meta i, .card.post>.post-heading i {
+.post-feed .post-meta i, .post-heading i {
   margin: 0 5px;
 }
 /*****************

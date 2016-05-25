@@ -12,10 +12,10 @@ if($post['id'] == $postID): ?>
 		<div class="card card-block">
 			<header class="row post-heading">
 				<div class="col-xs-8"> 
-			    	<?php echo $post['author']; ?> <i class="fa fa-caret-right text-muted"></i> <span class="posted-in"><?php echo $post['posted-in']; ?></span>   
+			    	<?php echo $post['author']; ?><i class="fa fa-caret-right text-muted"></i><span class="posted-in"><?php echo $post['posted-in']; ?></span>   
 			    </div>
 			    <div class="col-xs-4 post-date">
-			    	<?php echo $post['post-date']; ?>			    	
+			    	<i class="fa fa-clock-o text-muted"></i><?php echo $post['post-date']; ?>			    	
 			    </div>
 			</header>
 	  		<h1><?php echo $post['post-title']; ?></h1>

@@ -16,11 +16,6 @@
         <p class="card-text">Anvender .card-warning for baggrund.</p>
         <a href="#" class="btn btn-secondary">Indtast nummerplade</a>
     </div>
-    <div class="card card-block">
-      <blockquote class="card-blockquote">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      </blockquote>
-    </div>
 
     </div><!-- /.card-columns -->
   </div>

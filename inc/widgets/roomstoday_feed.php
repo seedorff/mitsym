@@ -20,8 +20,8 @@ $data=json_decode($json,true);
       <div class="col-xs-4 room-time">
         <?php echo implode(':', str_split($item['timeStart'], 2)); ?> - <?php echo implode(':', str_split($item['timeEnd'], 2)); ?>
       </div>
-      <div class="col-xs-2 room-nr">
-        <?php echo $item['room']; ?>
+      <div class="col-xs-2 no-gutter-left room-nr">
+        <?php echo substr($item['room'],0,8); ?>
       </div>
 
     </div>
