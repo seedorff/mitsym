@@ -21,17 +21,18 @@ if($post['id'] == $postID): ?>
 	  		<h1><?php echo $post['post-title']; ?></h1>
 	  		<p><?php echo $post['the-post']; ?></p>
 	  		<footer class="row">
-	  			<div class="col-xs-3 col-md-2">
+	  			<div class="col-xs-3 col-md-2 no-gutter-right">
 	  				<img class="author-img img-fluid" src="<?php echo $post['author-img']; ?>" alt="<?php echo $post['author']; ?>" />
 	  			</div>
-	  			<div class="col-xs-9 col-md-10">
-	  				<?php echo $post['author']; ?>
+	  			<div class="col-xs-9 col-md-10 post-meta">
+	  				<h4 class="author"><?php echo $post['author']; ?></h4>
 	  				<div class="company"><?php echo $post['author-company']; ?></div>
+					<a href="mailto:<?php echo $post['author-email']; ?>"><?php echo $post['author-email']; ?></a>
 	  			</div>
 	  		</footer>
   		</div>
  	</article><!-- /main-content -->
- 	<aside class="col-lg-4">
+ 	<aside class="col-lg-4 sidebar">
  		<?php require_once 'inc/widgets/opslagstavle_feed.php'; ?>
  	</aside>
 

@@ -34,7 +34,7 @@ endif;
         <p><?php echo $post['the-post']; ?></p>
     </div>
     <footer class="post-footer">
-        <a href="mailto:<?php echo $post['author-email']; ?>"><i class="fa fa-envelope link-icon"></i>Kontakt <?php echo $post['author']; ?></a> 
+        <a href="mailto:<?php echo $post['author-email']; ?>">Kontakt <?php echo $post['author']; ?></a> 
     </footer>
 </article>
 <?php } ?>

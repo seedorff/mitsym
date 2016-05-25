@@ -29,7 +29,9 @@ form label {
   margin-left: 7px;
   font-size: 90%;
 }
-
+.no-gutter-right {
+  padding-right: 0;
+}
 /*****************
   Colors
 ******************/
@@ -588,14 +590,34 @@ form .signin {
   color: #fff;
   background: $symbion-primary;
 }
-.post-feed h4 {
-  font-size: 0.8rem;
-  margin-bottom: 5px;
+/*****************
+  Message board - post feed box
+******************/
+.post-feed .post {
+  margin-bottom: 10px;
 }
+.post-meta {
+  font-size: 0.8rem;
+}
+.post-feed h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+}
+/*****************
+  Message board - single post
+******************/
 .post-single header {
   margin-bottom: 20px;
   font-size: 0.8rem;
 }
 .post-single header .post-date {
   text-align: right;
+}
+.post-single footer {
+  font-size: 0.8rem;
+}
+.post-single .post-meta h4 {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  font-weight: 700;
 }
