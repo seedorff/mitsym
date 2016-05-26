@@ -12,10 +12,8 @@
       <p class="card-text">Dette er en længere card-variant, hvor overskriften har et linjeskift. Således kan overskrifter optimeres til dette.</p>
     </div>
   </div>
-  <div class="card card-block">
-    <blockquote class="card-blockquote">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-    </blockquote>
+  <div class="card card-block">  
+  	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
   </div>
   <div class="card">
     <img class="card-img-top img-fluid" src="http://placehold.it/380x180" alt="Card image cap">
@@ -25,9 +23,7 @@
     </div>
   </div>
   <div class="card card-block card-inverse card-primary ">
-    <blockquote class="card-blockquote">
-      <p>Denne type card har .card-primary som CSS class, hvilket ændrer baggrunden til symbions primær farve.</p>
-    </blockquote>
+    <p class="card-text">Denne type card har .card-primary som CSS class, hvilket ændrer baggrunden til symbions primær farve.</p>
   </div>
   <div class="card card-block">
     <h4 class="card-title">Print</h4>
@@ -38,9 +34,7 @@
     <img class="card-img img-fluid" src="http://placehold.it/380x180" alt="Card image">
   </div>
   <div class="card card-block">
-    <blockquote class="card-blockquote">
-      <p>Denne type card fremstår uden titel eller billede. Ovenfor eksisterer et card uden tekst - ren billede. For billed-cards, bør det være muligt at inkludere links på billedet.</p>
-    </blockquote>
+    <p class="card-text">Denne type card fremstår uden titel eller billede. Ovenfor eksisterer et card uden tekst - ren billede. For billed-cards, bør det være muligt at inkludere links på billedet.</p>
   </div>
   <div class="card card-block">
     <h4 class="card-title">Card title</h4>

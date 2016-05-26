@@ -292,18 +292,6 @@ form .signin {
   padding: 1px 3px;
   font-size: 0.6rem;
 }
-.event .event-type.open .type:hover:before,
-.event .event-type.internal .type:hover:before,
-.event .event-type.external .type:hover:before {
-  background: #fff;
-  padding: 10px 10px;
-  position:absolute;
-  top:0px;
-  right:0;
-}
-.event .event-type.open .type:hover:before {content: "Arrangement for alle";}
-.event .event-type.internal .type:hover:before {content: "Arrangement for lejere";}
-.event .event-type.external .type:hover:before {content: "Arrangement for eksterne virksomheder";}
 
 /*****************
   Room feed
