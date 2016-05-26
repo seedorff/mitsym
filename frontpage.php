@@ -17,6 +17,8 @@
         <a href="#" class="btn btn-secondary">Indtast nummerplade</a>
     </div>
     <?php require_once 'inc/widgets/nyevirksomheder.php'; ?>
+    <?php require_once 'inc/widgets/symbion_paqle_feed.php'; ?>
+    <?php require_once 'inc/widgets/orbit_paqle_feed.php'; ?>
 
     </div><!-- /.card-columns -->
   </div>
