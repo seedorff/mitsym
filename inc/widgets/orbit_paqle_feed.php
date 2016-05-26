@@ -5,7 +5,7 @@ $json=XmlToJson::Parse("http://test.paqle.se/rss/folder.atom?userId=27672&folder
 $data=json_decode($json,true);
 ?>
 <div class="card card-block feed orbit paqle-feed">
-  <h3 class="card-title">Virksomheder fra The Orbit</h3>
+  <h3 class="card-title">Virksomheder fra Orbit</h3>
     <p class="card-text">Nævnt i medierne.</p>
     <!-- paqle loop -->
     <?php
