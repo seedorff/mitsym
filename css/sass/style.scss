@@ -3,6 +3,12 @@
 /* Colors */
 $symbion-primary: $brand-primary;
 $lightondark: #fff;
+$magenta: #C23B79;
+$muted-green: #A1A335;
+$yellow-sun: #F3B63E;
+$bright-orange: #F25C25;
+$tomato-red: #DA2B17;
+
 
 /* Typography */
 $font-family-base: 'Fira Sans', sans-serif;
@@ -606,6 +612,24 @@ form .signin {
 }
 .card.feed .feed-meta {
   font-size: 0.8rem;
+}
+$orbit-feed: $bright-orange;
+.card.feed.orbit {
+  $feed-background: lighten($orbit-feed, 40%);
+  background: $feed-background;
+  border-color: $feed-background;
+}
+.card.feed.orbit a {
+  color: $orbit-feed;
+}
+$symbion-feed: $muted-green;
+.card.feed.symbion {
+  $feed-background: lighten($symbion-feed, 47%);
+  background: $feed-background;
+  border-color: $feed-background;
+}
+.card.feed.symbion a {
+  color: $symbion-feed;
 }
 
 /*****************

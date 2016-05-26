@@ -4,9 +4,9 @@ require_once 'inc/feeds/xmltojson.php';
 $json=XmlToJson::Parse("http://test.paqle.se/rss/folder.atom?userId=27672&folderId=24&key=99d4f069ef1c54d8591bfbcb11875ff5");
 $data=json_decode($json,true);
 ?>
-<div class="card card-block feed paqle-feed">
-  <h3 class="card-title">Virksomheder I Symbion</h3>
-    <p class="card-text">Nævnt i medierne</p>
+<div class="card card-block feed symbion paqle-feed">
+  <h3 class="card-title">Virksomheder i Symbion</h3>
+    <p class="card-text">Nævnt i medierne.</p>
     <!-- paqle loop -->
     <?php
       $i = 0;
