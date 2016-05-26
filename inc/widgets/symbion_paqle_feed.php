@@ -12,17 +12,14 @@ $data=json_decode($json,true);
       $i = 0;
       foreach($data['entry'] as $key => $entry){ 
       if($i==5) break;?>
-      <div class="row feed-item paqle-entry"> 
-        <div class="col-xs-12">
-            
-            <h4><a href="<?php echo $entry['link']['@attributes']['href']; ?>" target="_blank"><?php echo $entry['title']; ?></a>
-            </h4>
-            <div class="feed-meta text-muted">
-            <?php 
-              $retievedtime = new DateTime($entry['published']);
-              $published = $retievedtime->format('d/m/Y'); ?>
-            <?php echo $entry['category']['@attributes']['label']; ?><i class="fa fa-caret-right"></i><?php echo $entry['source']['title']; ?><i class="fa fa-clock-o"></i><?php echo $published;?>
-            </div>
+      <div class="feed-item paqle-entry">  
+        <h4><a href="<?php echo $entry['link']['@attributes']['href']; ?>" target="_blank"><?php echo $entry['title']; ?></a>
+        </h4>
+        <div class="feed-meta text-muted">
+        <?php 
+          $retievedtime = new DateTime($entry['published']);
+          $published = $retievedtime->format('d/m/Y'); ?>
+        <?php echo $entry['category']['@attributes']['label']; ?><i class="fa fa-caret-right"></i><?php echo $entry['source']['title']; ?><i class="fa fa-clock-o"></i><?php echo $published;?>
         </div>
       </div>
       
