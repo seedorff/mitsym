@@ -610,6 +610,9 @@ form .signin {
 .card.feed .feed-item {
   margin-bottom: 15px;
 }
+.card.feed .feed-item:last-child {
+  margin-bottom: 0px;
+}
 .card.feed .feed-meta {
   font-size: 0.8rem;
 }
