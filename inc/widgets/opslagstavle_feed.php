@@ -8,7 +8,7 @@ $data=json_decode($json,true);
   <h3 class="card-title"><a href="<?php echo $site_url; ?>/?page=opslagstavlen">Opslagstavlen</a></h3>
     <p class="card-text">Seneste opslag.</p>
 
-    <!-- post loop -->
+    <!-- post loop (static example feed) -->
     <?php
     foreach($data as $key => $post){ ?>
       <div class="post feed-item"> 

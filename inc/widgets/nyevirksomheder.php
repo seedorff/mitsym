@@ -6,7 +6,7 @@ $data=json_decode($json,true);
 <div class="card card-block feed company-feed">
   <h3 class="card-title">Nye virksomheder</h3>
     
-    <!-- company loop -->
+    <!-- company loop (static example feed) -->
     <?php
     foreach($data as $key => $company){ ?>
     <div class="feed-item company">    

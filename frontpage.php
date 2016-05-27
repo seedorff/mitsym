@@ -12,6 +12,7 @@
     <?php require_once 'inc/widgets/nyevirksomheder.php'; ?>
     <?php require_once 'inc/widgets/symbion_paqle_feed.php'; ?>
     <?php require_once 'inc/widgets/orbit_paqle_feed.php'; ?>
+    <?php require_once 'inc/widgets/blog_feed.php'; ?>
 
     </div><!-- /.card-columns -->
   </div>

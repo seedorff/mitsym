@@ -1,26 +1,24 @@
 <?php 
-$url="inc/feeds/virksomheder.json";
+$url="inc/feeds/blog.json";
 $json=file_get_contents($url);
 $data=json_decode($json,true);
 ?>
 <div class="card card-block feed blog-feed">
-  <h3 class="card-title">Symbion Blog</h3>
+  <h3 class="card-title">Blogindlæg</h3>
     
-    <!-- company loop -->
+    <!-- blog loop (static example feed) -->
+
     <?php
-    foreach($data as $key => $company){ ?>
-    <div class="row feed-item blog-item"> 
-      <div class="col-xs-12">
-          
-          <h4><a href="<?php echo $site_url; ?>/?company-id=<?php echo $company['id']; ?>"><?php echo $company['company']; ?></a>
-          </h4>
-          <div class="feed-meta text-muted">
-            Indflyttet<i class="fa fa-caret-right text-muted"></i><?php echo $company['move-in-date']; ?><i class="fa fa-home text-muted"></i><?php echo $company['location']; ?>
-          </div>
+    foreach($data as $key => $blog){ ?>
+    <div class="feed-item blog">    
+      <h4><a href="<?php echo $blog['post-url']; ?>"><?php echo $blog['title']; ?></a>
+      </h4>
+      <div class="feed-meta text-muted">
+        Skrevet<i class="fa fa-clock-o text-muted"></i><?php echo $blog['post-date']; ?>
       </div>
     </div>
     
     <?php } ?>
-    <!-- /company loop -->
+    <!-- /blog loop -->
 
 </div>
