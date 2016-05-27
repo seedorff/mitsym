@@ -1,0 +1,20 @@
+/*****************
+  Header
+******************/
+.header.container {
+	line-height: 60px;
+}
+.logo {
+	font-size: 22px;
+	font-weight: bold;
+}
+.logo img {
+	width: 150px;
+	padding: 10px 0;
+}
+form .signin {
+	line-height: 1;
+}
+.btn-group-sm>.btn, .btn-sm {
+	padding: .27rem .75rem;
+}

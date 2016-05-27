@@ -9,16 +9,15 @@
     <link rel="icon" href="inc/favicon.ico">
 
     <title>Symbion Intranet</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300|Roboto:400,300,700|Fira+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href="css/select2/select2.min.css" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-
+    
+    <!-- Bootstrap 4 + custom css -->
     <link href="css/style.min.css" rel="stylesheet" type='text/css'>
+    
     <!-- JS -->
     <script src="js/searchfield/modernizr.custom.js"></script>
   </head>

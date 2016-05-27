@@ -1,0 +1,20 @@
+/* Colors */
+$symbion-primary: $brand-primary;
+$lightondark: #fff;
+$magenta: #C23B79;
+$muted-green: #A1A335;
+$yellow-sun: #F3B63E;
+$bright-orange: #F25C25;
+$tomato-red: #DA2B17;
+
+/* Symbion */
+.bg-symbion {
+  background-color: $symbion-primary; 
+  color: $lightondark;
+}
+.bg-symbion a { 
+  color: $lightondark; 
+}
+
+/* Typography */
+$font-family-base: 'Fira Sans', sans-serif;

@@ -1,0 +1,170 @@
+/*****************
+  Message board - opslagstavlen
+******************/
+.modal.new-post .modal-body {
+  background: $gray-lightest;
+}
+.collapsed-post {
+  max-height: 65px;
+  overflow: hidden;
+}
+.post-footer {
+  margin-top: 10px;
+  text-align: right;
+}
+.link-icon {
+  margin-right: 4px;
+}
+.selecttags, .select2-container {
+	width: 100% !important;
+}
+.select2-container--default .select2-selection--multiple {
+	background-color: inherit;
+	border: 1px solid $input-border-color;
+	border-radius: inherit;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 0.375rem 0.75rem;
+}
+.row.new-post {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.card.post {
+    position: relative;
+    font-size: 0.813rem;
+}
+.card.post > .dropdown {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.card.post > .dropdown > .dropdown-menu {
+    left: initial;
+    right: 0px;
+    border-radius: 2px;
+}
+.card.post > .post-tags {
+    position: absolute;
+    top: 35px;
+    right: -3px;
+}
+.card.post > .post-tags > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.card.post > .post-tags > ul:hover {
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);   
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);   
+}
+.card.post > .post-tags > ul > li {
+    display: block;
+    right: 0px;
+    width: 0px;
+    padding: 5px 0px 5px 0px;
+    background-color: $gray-lightest;
+    font-size: 0.75rem;
+    overflow: hidden;
+}
+.card.post > .post-tags > ul > li::after {
+    content:"";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+	border-right: 3px solid $brand-info;
+}
+.card.post > .post-tags > ul:hover > li,
+.card.post > .post-tags > ul > li:first-child {
+    padding: 5px 15px 5px 10px;
+    width: auto;
+    cursor: pointer;
+    margin-left: auto;
+}
+.card.post > .post-tags > ul:hover > li {
+    background-color: #fff;   
+}
+.card.post > .post-tags > ul > li:hover {
+    background-color: $brand-info;
+    color: #fff;
+}
+.card.post > .post-heading {
+    background-color: #fff;
+    border-width: 0px; 
+}
+.card.post > .post-heading {
+    margin-top: 20px;    
+    padding-bottom: 5px; 
+}
+.card.post > .post-heading > img { 
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+.card.post > .post-heading > h5 {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding-top: 4px;
+}
+.card.post h4.post-title {
+	font-size: 1rem;
+	font-weight: 700;
+	margin: 10px 0 0;
+	line-height:1.4;
+}
+.card.post > .post-heading > .post-meta {
+    font-size: 12px;
+    margin: 5px 0 10px;
+}
+.card.post > .post-body {
+    padding-top: 5px;
+    clear:both;
+}
+//filter
+.messageboard .post {
+	display:none;
+}
+.filter-container input.filter-type-all:checked ~ .messageboard .post {
+	display:inline-block;
+}
+.filter-container input.filter-saelges:checked ~ .messageboard .saelges, 
+.filter-container input.filter-koebes:checked ~ .messageboard .koebes, 
+.filter-container input.filter-begivenheder:checked ~ .messageboard .begivenheder
+{display:inline-block;}
+
+.filter-container input {
+    display: none;
+}
+.filter-container label {
+	padding: 11px 12px;
+  line-height: 13px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  color: darken( $symbion-primary, 10% );
+}
+.filter-container input:checked + label {
+  color: #fff;
+  background: $symbion-primary;
+}
+/*****************
+  Message board - single post
+******************/
+.post-single header {
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+.post-single header .post-date {
+  text-align: right;
+}
+.post-single footer {
+  font-size: 0.8rem;
+}
+.post-single .post-meta h4 {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}

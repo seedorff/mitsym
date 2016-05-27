@@ -1,0 +1,130 @@
+
+/*****************
+  feed cards general styling
+******************/
+.card.feed h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+}
+.card.feed .feed-item {
+  margin-bottom: 15px;
+}
+.card.feed .feed-item:last-child {
+  margin-bottom: 0px;
+}
+.card.feed .feed-meta {
+  font-size: 0.8rem;
+}
+$orbit-feed: $bright-orange;
+.card.feed.orbit {
+  $feed-background: lighten($orbit-feed, 40%);
+  background: $feed-background;
+  border-color: $feed-background;
+}
+.card.feed.orbit a {
+  color: $orbit-feed;
+}
+$symbion-feed: $muted-green;
+.card.feed.symbion {
+  $feed-background: lighten($symbion-feed, 47%);
+  background: $feed-background;
+  border-color: $feed-background;
+}
+.card.feed.symbion a {
+  color: $symbion-feed;
+}
+
+/*****************
+  Message board - post feed box
+******************/
+.room-feed .room:nth-child(odd) {
+    background: rgba(255,255,255,0.3);
+}
+.card.post-feed {
+  background: lighten( $brand-info, 20% );
+  border-color: lighten( $brand-info, 20% );
+}
+.post-meta {
+  font-size: 0.8rem;
+}
+.post-feed h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+}
+.post-feed .post-meta i, .post-heading i, .card.feed .feed-meta i {
+  margin: 0 5px;
+}
+
+/*****************
+  Event feed
+******************/
+.event-feed {
+	color: #fff;
+}
+.event-feed .event:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.2);
+}
+.event-feed .event, .room-feed .room {
+	padding: 10px 0;
+	margin-left: -1.3rem;
+	margin-right: -1.3rem;
+}
+.card-title {font-size:1.4rem;}
+.event-feed .event .event-meta {
+	text-align: center;
+	line-height: 1.1;
+}
+.event-feed .event .event-meta .event-date {
+	font-size: 1.9rem;
+	font-weight: 600;
+  display:block;
+}
+.event-feed .event .event-meta .event-month {
+	font-size: 0.87rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.event-feed .event .event-description {
+	font-size: 0.8rem;
+  position:relative;
+}
+.event h4 {
+  font-size: 0.8rem;
+  margin-bottom:2px;
+}
+.event-type {
+  text-align: left;
+}
+.event .event-type .type {
+  color: #2e637b;
+  background: rgba(255,255,255,0.6);
+  display: inline-block;
+  padding: 1px 3px;
+  font-size: 0.6rem;
+}
+
+/*****************
+  Room feed
+******************/
+.room-feed {
+  background: lighten( $brand-success, 30% );
+  border-color: lighten( $brand-success, 30% );
+}
+.room-feed .room-description, .post-feed .post-row {
+  word-break: keep-all;
+  padding-left: 1.3rem;
+}
+.room-feed .room-time {
+  font-size: 0.7rem;
+  text-align: center;
+}
+.room-feed .room-nr {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.7rem;
+  overflow: hidden;
+}
+.room h4 {
+  font-size: 0.8rem;
+  margin:0;
+}

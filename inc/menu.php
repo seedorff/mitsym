@@ -11,7 +11,7 @@
   <li class="nav-item <?php if (($_GET['page'] === 'events')): ?> active<?php endif; ?>">
     <a class="nav-link" href="<?php echo $site_url; ?>/?page=events">Events</a>
   </li>
-  <li class="nav-item <?php if (($_GET['page'] === 'opslagstavlen')): ?> active<?php endif; ?>">
+  <li class="nav-item <?php if (($_GET['page'] === 'opslagstavlen') || isset($_GET['post-id'])): ?> active<?php endif; ?>">
     <a class="nav-link" href="<?php echo $site_url; ?>/?page=opslagstavlen">Opslagstavlen</a>
   </li>
   <li class="nav-item <?php if (($_GET['page'] === 'praktisk-info')): ?> active<?php endif; ?>">

@@ -1,0 +1,39 @@
+/*****************
+  Global styles
+******************/
+body {
+	font-family: $font-family-base;
+	background: url(../img/background/shelf.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+form label {
+ margin-bottom: .2rem;
+}
+.main-content img {
+  margin-bottom: 15px;
+}
+.btn i {
+  margin-left: 7px;
+  font-size: 90%;
+}
+.no-gutter-left {
+  padding-left: 0;
+}
+.no-gutter-right {
+  padding-right: 0;
+}
+ul.no-style-list {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+.title-meta {
+  font-size: .9rem;
+  margin-bottom: 1rem;
+}
+.title-meta i {
+  margin:0 5px;
+}
