@@ -15,7 +15,7 @@ $data=json_decode($json,true);
     <div class="row room">
       
       <div class="col-xs-6 room-description">
-        <h4><?php echo $item['company']; ?></h4>
+        <span class="name"><?php echo $item['company']; ?></span>
       </div>
       <div class="col-xs-4 room-time">
         <?php echo implode(':', str_split($item['timeStart'], 2)); ?> - <?php echo implode(':', str_split($item['timeEnd'], 2)); ?>

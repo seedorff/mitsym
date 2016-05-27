@@ -1,4 +1,4 @@
-<div class="card event-feed card-block card-inverse card-primary">
+<div class="card feed event-feed card-block card-inverse card-primary">
   <h3 class="card-title">Arrangementer</h3>
     <p class="card-text">Alle kommende arrangementer.</p>
 
