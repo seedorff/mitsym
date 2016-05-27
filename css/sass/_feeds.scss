@@ -53,6 +53,9 @@ $symbion-feed: $muted-green;
 .event-feed {
 	color: #fff;
 }
+.card.feed.event-feed h4 {
+  font-size: 0.8rem;
+}
 .event-feed .event:nth-child(odd) {
     background: rgba(255, 255, 255, 0.2);
 }
