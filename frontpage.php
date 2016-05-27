@@ -9,13 +9,6 @@
   	<?php require_once 'inc/widgets/event_feed.php'; ?>
     <?php require_once 'inc/widgets/ugemenu.php'; ?>
     <?php require_once 'inc/widgets/opslagstavle_feed.php'; ?>
-    
-    <div class="card card-block card-inverse card-warning">
-        <h3 class="card-title">Husk parkering</h3>
-        <p class="card-text">De nye parkeringsregler er trådt i kraft pr. 2. maj 2016. Ønsker du at parkere på symbions område, skal du have en gyldig p-licens.</p>
-        <p class="card-text">Anvender .card-warning for baggrund.</p>
-        <a href="#" class="btn btn-secondary">Indtast nummerplade</a>
-    </div>
     <?php require_once 'inc/widgets/nyevirksomheder.php'; ?>
     <?php require_once 'inc/widgets/symbion_paqle_feed.php'; ?>
     <?php require_once 'inc/widgets/orbit_paqle_feed.php'; ?>

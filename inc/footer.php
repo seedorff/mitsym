@@ -15,10 +15,10 @@
                 </div>
                 <div class="col-md-3 footer-col">
 
-                    <h3>Hurtige links</h3>
+                    <h3>Kontaktlinks</h3>
                     <ul class="link-list">
-                        <li><a href="#">Helpdesk</a></li>
-                        <li><a href="#">Reception</a></li>
+                        <li><a href="mailto:helpdesk@symbion.dk" target="_blank" title="Skriv mail til Helpdesk">Helpdesk</a></li>
+                        <li><a href="mailto:info@symbion.dk" target="_blank">Information</a></li>
                     </ul>
                     
                 </div>
